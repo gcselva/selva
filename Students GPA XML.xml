@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<informatics_course xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<student xsi:noNamespaceSchemaLocation="informatics_course.xsd" aid="001">
+		<surname>Kumar</surname>
+		<firstname>Selva</firstname>
+		<dateOfbirth>15.01.1986</dateOfbirth>
+		<gender>male</gender>
+		<age>28</age>
+		<maritalStatus>Single</maritalStatus>
+		<degree>none</degree>
+		<address>
+			<country>India</country>
+			<city>Chennai</city>
+			<street>Agr street</street>
+			<buildingNumber>301</buildingNumber>
+			<index>603209</index>
+		</address>
+		<contactInfo>
+			<email type="private">kumar@ya.com</email>
+			<email type="university">Selva@czu.cz</email>
+			<phoneNumber type="mobile">420-77-32-20-651</phoneNumber>
+			<phoneNumber type="work">420-77-32-20-651</phoneNumber>
+			<personalWebpage>none</personalWebpage>
+		</contactInfo>
+		<nationality>Indian</nationality>
+		<university>Czech University of Life Sciences</university>
+		<faculty>Faculty of Economics and Management</faculty>
+		<studyProgram>
+			<programName degree="Bachelor">Bachelor of Informatics</programName>
+			<studyLanguage>English</studyLanguage>
+			<GPA>1.7</GPA>
+			<admissionYear>2015</admissionYear>
+			<semester>2</semester>
+			<creditsObtaind>30</creditsObtaind>
+			<coursesPassed>
+				<course type="Obligatory">
+					<courseName>Markup Language</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Mansner</teacher>
+				</course>
+				<course type="Elective">
+					<courseName>Czech Language</courseName>
+					<credits>2</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Aneta</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>E-Government</courseName>
+					<credits>12</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Milos Ulman</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>Statistics</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Hlava</teacher>
+				</course>
+			</coursesPassed>
+		</studyProgram>
+		<languageSpoken level="Native" certificate="C2">Hindi</languageSpoken>
+		<languageSpoken level="Upper Advanced" certificate="C1">English</languageSpoken>
+		<entranceExamPassed>Yes</entranceExamPassed>
+		<scholarship>
+			<type>sport</type>
+			<amount currency="USD">3000</amount>
+			<frequency>each month</frequency>
+		</scholarship>
+		<family>
+			<parent type="father">
+				<firstname>Kumar</firstname>
+				<lastname>Durai</lastname>
+				<dateOfbirth>15.03.1962</dateOfbirth>
+				<contactInfo>
+					<email type="private">durai@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8444</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>Agr street</street>
+			        <buildingNumber>301</buildingNumber>
+			        <index>603209</index>
+				</address>
+			</parent>
+			<parent type="mother">
+				<firstname>Madhana</firstname>
+				<lastname>Valli</lastname>
+				<dateOfbirth>25.01.1965</dateOfbirth>
+				<contactInfo>
+					<email type="private">madhana@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8444</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>Agr street</street>
+			        <buildingNumber>301</buildingNumber>
+			        <index>603209</index>
+				</address>
+			</parent>
+		</family>
+	</student>
+	<student aid="002">
+		<surname>Amir</surname>
+		<firstname>saadman</firstname>
+		<dateOfbirth>03.06.1991</dateOfbirth>
+		<gender>male</gender>
+		<age>25</age>
+		<maritalStatus>Single</maritalStatus>
+		<degree>none</degree>
+		<address>
+			<country>India</country>
+			<city>Chennai</city>
+			<street>avenue street</street>
+			<buildingNumber>55</buildingNumber>
+			<index>705204</index>
+		</address>
+		<contactInfo>
+			<email type="private">Amir@ya.com</email>
+			<email type="university">Saadman@czu.cz</email>
+			<phoneNumber type="mobile">420-77-32-20-645</phoneNumber>
+			<phoneNumber type="work">420-77-32-20-656</phoneNumber>
+			<personalWebpage>none</personalWebpage>
+		</contactInfo>
+		<nationality>Indian</nationality>
+		<university>Czech University of Life Sciences</university>
+		<faculty>Faculty of Economics and Management</faculty>
+		<studyProgram>
+			<programName degree="Bachelor">Bachelor of Informatics</programName>
+			<studyLanguage>English</studyLanguage>
+			<GPA>1.123</GPA>
+			<admissionYear>2015</admissionYear>
+			<semester>2</semester>
+			<creditsObtaind>30</creditsObtaind>
+			<coursesPassed>
+				<course type="Obligatory">
+					<courseName>Markup Language</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Mansner</teacher>
+				</course>
+				<course type="Elective">
+					<courseName>Czech Language</courseName>
+					<credits>2</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Aneta</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>E-Government</courseName>
+					<credits>12</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Milos Ulman</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>Statistics</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Hlava</teacher>
+				</course>
+			</coursesPassed>
+		</studyProgram>
+		<languageSpoken level="Native" certificate="C2">Hindi</languageSpoken>
+		<languageSpoken level="Upper Advanced" certificate="C1">English</languageSpoken>
+		<entranceExamPassed>Yes</entranceExamPassed>
+		<scholarship>
+			<type>sport</type>
+			<amount currency="USD">3000</amount>
+			<frequency>each month</frequency>
+		</scholarship>
+		<family>
+			<parent type="father">
+				<firstname>Amir</firstname>
+				<lastname>Khan</lastname>
+				<dateOfbirth>12.01.1960</dateOfbirth>
+				<contactInfo>
+					<email type="private">khan@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8458</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>avenue street</street>
+			        <buildingNumber>55</buildingNumber>
+			        <index>705204</index>
+				</address>
+			</parent>
+			<parent type="mother">
+				<firstname>ahuya</firstname>
+				<lastname>khan</lastname>
+				<dateOfbirth>24.07.1965</dateOfbirth>
+				<contactInfo>
+					<email type="private">ahuya@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8215</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>avenue street</street>
+			        <buildingNumber>55</buildingNumber>
+			        <index>705204</index>
+				</address>
+			</parent>
+		</family>
+	</student>
+	<student aid="003">
+		<surname>Soni</surname>
+		<firstname>Yash</firstname>
+		<dateOfbirth>19.02.1993</dateOfbirth>
+		<gender>male</gender>
+		<age>20</age>
+		<maritalStatus>Single</maritalStatus>
+		<degree>none</degree>
+		<address>
+			<country>India</country>
+			<city>Chennai</city>
+			<street>4th street</street>
+			<buildingNumber>546</buildingNumber>
+			<index>845187</index>
+		</address>
+		<contactInfo>
+			<email type="private">Soni@ya.com</email>
+			<email type="university">yash@czu.cz</email>
+			<phoneNumber type="mobile">420-77-32-20-665</phoneNumber>
+			<phoneNumber type="work">420-77-32-50-6454</phoneNumber>
+			<personalWebpage>none</personalWebpage>
+		</contactInfo>
+		<nationality>Indian</nationality>
+		<university>Czech University of Life Sciences</university>
+		<faculty>Faculty of Economics and Management</faculty>
+		<studyProgram>
+			<programName degree="Bachelor">Bachelor of Informatics</programName>
+			<studyLanguage>English</studyLanguage>
+			<GPA>1.5</GPA>
+			<admissionYear>2015</admissionYear>
+			<semester>2</semester>
+			<creditsObtaind>30</creditsObtaind>
+			<coursesPassed>
+				<course type="Obligatory">
+					<courseName>Markup Language</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Mansner</teacher>
+				</course>
+				<course type="Elective">
+					<courseName>Czech Language</courseName>
+					<credits>2</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Aneta</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>E-Government</courseName>
+					<credits>12</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Milos Ulman</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>Statistics</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Hlava</teacher>
+				</course>
+			</coursesPassed>
+		</studyProgram>
+		<languageSpoken level="Native" certificate="C2">Hindi</languageSpoken>
+		<languageSpoken level="Upper Advanced" certificate="C1">English</languageSpoken>
+		<entranceExamPassed>Yes</entranceExamPassed>
+		<scholarship>
+			<type>sport</type>
+			<amount currency="USD">3000</amount>
+			<frequency>each month</frequency>
+		</scholarship>
+		<family>
+			<parent type="father">
+				<firstname>Soni</firstname>
+				<lastname>Kumar</lastname>
+				<dateOfbirth>12.01.1960</dateOfbirth>
+				<contactInfo>
+					<email type="private">kumar@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8758</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>4th street</street>
+			        <buildingNumber>546</buildingNumber>
+			        <index>845187</index>
+				</address>
+			</parent>
+			<parent type="mother">
+				<firstname>Soni</firstname>
+				<lastname>suganya</lastname>
+				<dateOfbirth>24.07.1965</dateOfbirth>
+				<contactInfo>
+					<email type="private">suga@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8254</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>4th street</street>
+			        <buildingNumber>546</buildingNumber>
+			        <index>845187</index>
+				</address>
+			</parent>
+		</family>
+	</student>
+	<student aid="004">
+		<surname>Patel</surname>
+		<firstname>sagar</firstname>
+		<dateOfbirth>21.11.1992</dateOfbirth>
+		<gender>male</gender>
+		<age>22</age>
+		<maritalStatus>Single</maritalStatus>
+		<degree>none</degree>
+		<address>
+			<country>India</country>
+			<city>Chennai</city>
+			<street>muthu street</street>
+			<buildingNumber>6498</buildingNumber>
+			<index>548127</index>
+		</address>
+		<contactInfo>
+			<email type="private">Patel@ya.com</email>
+			<email type="university">Sagar@czu.cz</email>
+			<phoneNumber type="mobile">420-77-32-52-665</phoneNumber>
+			<phoneNumber type="work">420-77-32-70-666</phoneNumber>
+			<personalWebpage>none</personalWebpage>
+		</contactInfo>
+		<nationality>Indian</nationality>
+		<university>Czech University of Life Sciences</university>
+		<faculty>Faculty of Economics and Management</faculty>
+		<studyProgram>
+			<programName degree="Bachelor">Bachelor of Informatics</programName>
+			<studyLanguage>English</studyLanguage>
+			<GPA>1.0</GPA>
+			<admissionYear>2015</admissionYear>
+			<semester>2</semester>
+			<creditsObtaind>30</creditsObtaind>
+			<coursesPassed>
+				<course type="Obligatory">
+					<courseName>Markup Language</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Mansner</teacher>
+				</course>
+				<course type="Elective">
+					<courseName>Czech Language</courseName>
+					<credits>2</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Aneta</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>E-Government</courseName>
+					<credits>12</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Milos Ulman</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>Statistics</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Hlava</teacher>
+				</course>
+			</coursesPassed>
+		</studyProgram>
+		<languageSpoken level="Native" certificate="C2">Hindi</languageSpoken>
+		<languageSpoken level="Upper Advanced" certificate="C1">English</languageSpoken>
+		<entranceExamPassed>Yes</entranceExamPassed>
+		<scholarship>
+			<type>sport</type>
+			<amount currency="USD">3000</amount>
+			<frequency>each month</frequency>
+		</scholarship>
+		<family>
+			<parent type="father">
+				<firstname>Patel</firstname>
+				<lastname>Raju</lastname>
+				<dateOfbirth>12.01.1960</dateOfbirth>
+				<contactInfo>
+					<email type="private">Raju@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8278</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>muthu street</street>
+			        <buildingNumber>6498</buildingNumber>
+			        <index>548127</index>
+				</address>
+			</parent>
+			<parent type="mother">
+				<firstname>Patel</firstname>
+				<lastname>soniya</lastname>
+				<dateOfbirth>24.07.1965</dateOfbirth>
+				<contactInfo>
+					<email type="private">soniya@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8455</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>muthu street</street>
+			        <buildingNumber>6498</buildingNumber>
+			        <index>548127</index>
+				</address>
+			</parent>
+		</family>
+	</student>
+	<student aid="005">
+		<surname>Patel</surname>
+		<firstname>Hitesh</firstname>
+		<dateOfbirth>08.05.1993</dateOfbirth>
+		<gender>male</gender>
+		<age>23</age>
+		<maritalStatus>Single</maritalStatus>
+		<degree>none</degree>
+		<address>
+			<country>India</country>
+			<city>Chennai</city>
+			<street>annai street</street>
+			<buildingNumber>6654</buildingNumber>
+			<index>251877</index>
+		</address>
+		<contactInfo>
+			<email type="private">patelH@ya.com</email>
+			<email type="university">Hitesh@czu.cz</email>
+			<phoneNumber type="mobile">420-77-32-52-755</phoneNumber>
+			<phoneNumber type="work">420-77-32-70-886</phoneNumber>
+			<personalWebpage>none</personalWebpage>
+		</contactInfo>
+		<nationality>Indian</nationality>
+		<university>Czech University of Life Sciences</university>
+		<faculty>Faculty of Economics and Management</faculty>
+		<studyProgram>
+			<programName degree="Bachelor">Bachelor of Informatics</programName>
+			<studyLanguage>English</studyLanguage>
+			<GPA>1.0</GPA>
+			<admissionYear>2015</admissionYear>
+			<semester>2</semester>
+			<creditsObtaind>30</creditsObtaind>
+			<coursesPassed>
+				<course type="Obligatory">
+					<courseName>Markup Language</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Mansner</teacher>
+				</course>
+				<course type="Elective">
+					<courseName>Czech Language</courseName>
+					<credits>2</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Aneta</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>E-Government</courseName>
+					<credits>12</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Milos Ulman</teacher>
+				</course>
+				<course type="Obligatory">
+					<courseName>Statistics</courseName>
+					<credits>8</credits>
+					<pointsObtained>98</pointsObtained>
+					<grade>A</grade>
+					<examResult>97</examResult>
+					<teacher>Hlava</teacher>
+				</course>
+			</coursesPassed>
+		</studyProgram>
+		<languageSpoken level="Native" certificate="C2">Hindi</languageSpoken>
+		<languageSpoken level="Upper Advanced" certificate="C1">English</languageSpoken>
+		<entranceExamPassed>Yes</entranceExamPassed>
+		<scholarship>
+			<type>sport</type>
+			<amount currency="USD">3000</amount>
+			<frequency>each month</frequency>
+		</scholarship>
+		<family>
+			<parent type="father">
+				<firstname>Patel</firstname>
+				<lastname>arumugam</lastname>
+				<dateOfbirth>12.01.1963</dateOfbirth>
+				<contactInfo>
+					<email type="private">aru@ya.com</email>
+					<phoneNumber type="mobile">091-97-68-54-8558</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>annai street</street>
+			        <buildingNumber>6654</buildingNumber>
+			        <index>251877</index>
+				</address>
+			</parent>
+			<parent type="mother">
+				<firstname>Patel</firstname>
+				<lastname>anjana</lastname>
+				<dateOfbirth>21.04.1965</dateOfbirth>
+				<contactInfo>
+					<email type="private">anjana@ya.com</email>
+					<phoneNumber type="mobile">091-97-18-54-2255</phoneNumber>
+				</contactInfo>
+				<address>
+					<country>India</country>
+					<city>Chennai</city>
+					<street>annai street</street>
+			        <buildingNumber>6654</buildingNumber>
+			        <index>251877</index>
+				</address>
+			</parent>
+		</family>
+	</student>
+</informatics_course>
