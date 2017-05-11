@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Markup Languages Project</title>
+</head>
+<body>
+   <article>
+       <header>
+           <h1>Markup Languages Project</h1>
+           <h2>iOS App Store</h2>
+           <h3>Table of Contents</h3>
+           <ol>
+               <li><a title="Introduction" href="#introduction">Introduction</a></li>
+               <li><a title="Methodology" href="#method">Methodology</a></li>
+               <li><a title="Project contents" href="#contents">Project contents</a></li>
+               <li><a title="Elements" href="#elements">Elements</a></li>
+               <li><a title="Transformation" href="#transformation">Transformation</a></li>
+               <li><a title="Conclusion" href="#conclusion">Conclusion</a></li>
+           </ol>
+       </header>
+       <h3><a id="introduction">Introduction</a></h3>
+            <p>
+                This projects represents a model of iOS App Store. App Store contains different apps and games and, of course, lots of data about them. To work with the App Store, a lot of things are required, such as price, rating, category, number of downloads, etc.
+            </p>
+        <br>
+        <h3><a id="method">Methodology</a></h3>
+            <p>
+                To achieve my results, I have used a lot of different technologies, such as
+                </p>
+                <ul>
+                    <li><a title="Wikipedia about XML" href="https://en.wikipedia.org/wiki/XML">XML</a>
+                    </li>
+                    <li><a title="Wikipedia about XML Schema" href="https://en.wikipedia.org/wiki/XML_Schema_(W3C)">XML Schema</a>
+                    </li>
+                    <li><a title="Wikipedia about HTML" href="https://en.wikipedia.org/wiki/HTML">HTML</a>
+                    </li>
+                    <li>
+                    <a title="Wikipedia about XSL" href="https://en.wikipedia.org/wiki/XSL">XSL</a>
+                    </li>
+                    <li><a title="Wikipedia about XSLT" href="https://en.wikipedia.org/wiki/XSLT">XSLT</a>
+                    </li>
+                </ul>
+        <br>
+        <h3><a id="contents">Project contents</a></h3>
+            <p>
+                The project consists of several files:
+                </p>
+                <dl>
+                    <dt>XML File</dt>
+                    <dd>Contains main data/dd>
+                    <dt>XML Schema File</dt>
+                    <dd>Describes the structure of XML</dd>
+                    <dt>XSL Transforamtion File</dt>
+                    <dd>Code used to generate HTML output</dd>
+                    <dt>HTML File</dt>
+                    <dd>HTML table (output) after XSLT</dd>
+                </dl>
+            
+        <br>
+        <h3><a id="elements">Elements</a></h3>
+            <p>
+            The root element is &ltappStore&gt. &ltappStore&gt contains, as required, 5 records of &ltapplication&gt.
+            </p>
+            <p>Each &ltapplication&gt consists of different attributes and elements, such as</p>
+                <section>
+                        <ul>
+                            <li>&lttitle&gt</li>
+                            <li>&ltdeveloper&gt</li>
+                            <li>&ltgenre&gt</li>
+                            <li>&ltsize&gt</li>
+                            <li>&ltprice&gt</li>
+                            <li>&ltrating&gt</li>
+                            <li>&ltnumberOfDownloads&gt</li>
+                            <li>&ltnumberOfViews&gt</li>
+                            <li>&ltnumberOfReviews&gt</li>
+                            <li>&ltnotifications&gt</li>
+                            <li>&ltsupportediOS&gt</li>
+                            <li>&ltsupportedDevices&gt</li>
+                            <li>etc.</li>
+                        </ul>
+       </section>     
+        <br>
+        <h3><a id="transformation">Transformation</a></h3>
+            <p>
+                To wrok with the data from XML, I used XSLT. It allows you to get different kinds of data from XML. For each record the same output can be requested and this output is organized in the form of table.
+            </p>
+            <p>
+               Sorted by name, games and applications from App Store are presented in this table. Apps with big number of downloads (more than 20000) are shown in green color, apps with high price are shown in yellow color (greater than 3).
+            </p>
+                <section>
+                    <table border="1">
+                         <tr bgcolor="white">
+                            <th>Title</th>
+                            <th>Category</th>
+                            <th>Developer</th>
+                            <th>Size (Mb)</th>
+                            <th>In-App purchases</th>
+                            <th>In-App Ads</th>
+                            <th>Current version</th>
+                            <th>Price (EUR)</th>
+                            <th>Number of downloads</th>
+                         </tr>
+                         <tr>
+                            <td>Angry Sharks</td>
+                            <td>Shooter</td>
+                            <td>Reklyama Bink</td>
+                            <td>346.4</td>
+                            <td>yes</td>
+                            <td>yes</td>
+                            <td>1.5</td>
+                            <td>2.99</td>
+                            <td>4500</td>
+                         </tr>
+                         <tr>
+                            <td>Eating 'em buns</td>
+                            <td>Simulator</td>
+                            <td>BTC HAVI</td>
+                            <td>21.1</td>
+                            <td>no</td>
+                            <td>yes</td>
+                            <td>1.0</td>
+                            <td>2.99</td>
+                            <td>130</td>
+                         </tr>
+                         <tr>
+                            <td>Flying Drawn</td>
+                            <td>Art</td>
+                            <td>Abode Inc.</td>
+                            <td>1253.1</td>
+                            <td>no</td>
+                            <td>no</td>
+                            <td>2.4</td>
+                            <td style="background-color:yellow">10.99</td>
+                            <td style="background-color:green">67800</td>
+                         </tr>
+                         <tr>
+                            <td>Game of Thrones</td>
+                            <td>RPG</td>
+                            <td>Fiji games</td>
+                            <td>300.4</td>
+                            <td>yes</td>
+                            <td>yes</td>
+                            <td>1.2</td>
+                            <td style="background-color:yellow">3.99</td>
+                            <td>2000</td>
+                         </tr>
+                         <tr>
+                            <td>Notable</td>
+                            <td>Productivity</td>
+                            <td>Rojio Inc.</td>
+                            <td>31.2</td>
+                            <td>no</td>
+                            <td>no</td>
+                            <td>9.3</td>
+                            <td>0.99</td>
+                            <td style="background-color:green">23809</td>
+                         </tr>
+                      </table>
+                </section>
+        <br>
+        <h3><a id="conclusion">Conclusion</a></h3>
+            <p>Writing this project was a good experience, since it showed on a real example, how XML, XSLT, XSD and HTML can be used together and applied for a project. </p>
+   </article>
+   <br>
+   <br>
+   <br>
+   <footer>
+       <p>
+            <a href="https://github.com/gcselva/selva">GitHub link</a><br>
+            <b>Selva Kumar. <br> 
+                CULS, 2017.</b>
+       </p>
+   </footer>
+</body>
+</html>

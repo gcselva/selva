@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<appStore>
+    <application type="game" id="1234">
+        <title>Game of Thrones</title>
+        <developer>Fiji games</developer>
+        <genre>RPG</genre>
+        <price>3.99</price>
+        <location>CZ</location>
+        <discount unit="%">0</discount>
+        <numberOfDownloads>2000</numberOfDownloads>
+        <numberOfViews>12000</numberOfViews>
+        <numberOfReviews>50</numberOfReviews>
+        <rating unit="star">4</rating>
+        <currentVersion>1.2</currentVersion>
+        <technicalSupport>support@gmt.com</technicalSupport>
+        <supportediOS>
+            <iOS9.X>yes</iOS9.X>
+            <iOS8.X>yes</iOS8.X>
+            <iOS10.X>yes</iOS10.X>
+        </supportediOS>
+        <tvOS>no</tvOS>
+        <macOS>no</macOS>
+        <supportedDevices>
+            <iPhone type="oldest">5</iPhone>
+            <iPhone type="newest">7</iPhone>
+            <iPodTouch type="oldest">5</iPodTouch>
+            <iPodTouch type="newest">6</iPodTouch>
+            <iPadMini type="oldest">1</iPadMini>
+            <iPadMini type="newest">2</iPadMini>
+            <iPad type="oldest">4</iPad>
+            <iPad type="newest">Air 2</iPad>
+        </supportedDevices>
+        <applePencilSupport>no</applePencilSupport>
+        <internetRequired>yes</internetRequired>
+        <minimumConnection unit="Mbs">1</minimumConnection>
+        <in-appPurchases>yes</in-appPurchases>
+        <in-appAds>yes</in-appAds>
+        <notifications>
+            <sounds status="default">yes</sounds>
+            <notificationCenter status="default">yes</notificationCenter>
+            <badgeAppIcon status="default">yes</badgeAppIcon>
+            <showOnLockScreen status="default">yes</showOnLockScreen>
+        </notifications>
+        <size unit="Mb">300.4</size>
+        <appleApproved>yes</appleApproved>
+        <inTesting>no</inTesting>
+        <gameplayVideo>no</gameplayVideo>
+        <numberOfScreenshots>3</numberOfScreenshots>
+        <availableInAppBundle>yes</availableInAppBundle>
+        <bundleID>325</bundleID>
+        <editorsChoice>no</editorsChoice>
+        <featuredWeekly>No</featuredWeekly>
+    </application>
+    <application type="app" id="3567">
+        <title>Notable</title>
+        <developer>Rojio Inc.</developer>
+        <genre>Productivity</genre>
+        <price>0.99</price>
+        <location>DE</location>
+        <discount unit="%">50</discount>
+        <numberOfDownloads>23809</numberOfDownloads>
+        <numberOfViews>1234809</numberOfViews>
+        <numberOfReviews>123</numberOfReviews>
+        <rating unit="star">5</rating>
+        <currentVersion>9.3</currentVersion>
+        <technicalSupport>support@rojio.com</technicalSupport>
+        <supportediOS>
+            <iOS9.X>yes</iOS9.X>
+            <iOS8.X>no</iOS8.X>
+            <iOS10.X>yes</iOS10.X>
+        </supportediOS>
+        <tvOS>yes</tvOS>
+        <macOS>no</macOS>
+        <supportedDevices>
+            <iPhone type="oldest">5</iPhone>
+            <iPhone type="newest">7</iPhone>
+            <iPodTouch type="oldest">5</iPodTouch>
+            <iPodTouch type="newest">6</iPodTouch>
+            <iPadMini type="oldest">1</iPadMini>
+            <iPadMini type="newest">2</iPadMini>
+            <iPad type="oldest">4</iPad>
+            <iPad type="newest">Air 2</iPad>
+        </supportedDevices>
+        <applePencilSupport>yes</applePencilSupport>
+        <internetRequired>yes</internetRequired>
+        <minimumConnection unit="Mbs">0.5</minimumConnection>
+        <in-appPurchases>no</in-appPurchases>
+        <in-appAds>no</in-appAds>
+        <notifications>
+            <sounds status="default">yes</sounds>
+            <notificationCenter status="default">yes</notificationCenter>
+            <badgeAppIcon status="default">yes</badgeAppIcon>
+            <showOnLockScreen status="default">yes</showOnLockScreen>
+        </notifications>
+        <size unit="Mb">31.2</size>
+        <appleApproved>yes</appleApproved>
+        <inTesting>no</inTesting>
+        <gameplayVideo>no</gameplayVideo>
+        <numberOfScreenshots>3</numberOfScreenshots>
+        <availableInAppBundle>no</availableInAppBundle>
+        <bundleID>N/A</bundleID>
+        <editorsChoice>yes</editorsChoice>
+        <featuredWeekly>yes</featuredWeekly>
+    </application>
+    <application type="game" id="8893">
+        <title>Angry Sharks</title>
+        <developer>Reklyama Bink</developer>
+        <genre>Shooter</genre>
+        <price>2.99</price>
+        <location>CZ</location>
+        <discount unit="%">0</discount>
+        <numberOfDownloads>4500</numberOfDownloads>
+        <numberOfViews>13433</numberOfViews>
+        <numberOfReviews>12</numberOfReviews>
+        <rating unit="star">4</rating>
+        <currentVersion>1.5</currentVersion>
+        <technicalSupport>support@hfuhr.org</technicalSupport>
+        <supportediOS>
+            <iOS9.X>yes</iOS9.X>
+            <iOS8.X>yes</iOS8.X>
+            <iOS10.X>yes</iOS10.X>
+        </supportediOS>
+        <tvOS>no</tvOS>
+        <macOS>no</macOS>
+        <supportedDevices>
+            <iPhone type="oldest">5</iPhone>
+            <iPhone type="newest">7</iPhone>
+            <iPodTouch type="oldest">5</iPodTouch>
+            <iPodTouch type="newest">6</iPodTouch>
+            <iPadMini type="oldest">1</iPadMini>
+            <iPadMini type="newest">2</iPadMini>
+            <iPad type="oldest">4</iPad>
+            <iPad type="newest">Air 2</iPad>
+        </supportedDevices>
+        <applePencilSupport>no</applePencilSupport>
+        <internetRequired>yes</internetRequired>
+        <minimumConnection unit="Mbs">1</minimumConnection>
+        <in-appPurchases>yes</in-appPurchases>
+        <in-appAds>yes</in-appAds>
+        <notifications>
+            <sounds status="default">yes</sounds>
+            <notificationCenter status="default">yes</notificationCenter>
+            <badgeAppIcon status="default">yes</badgeAppIcon>
+            <showOnLockScreen status="default">yes</showOnLockScreen>
+        </notifications>
+        <size unit="Mb">346.4</size>
+        <appleApproved>yes</appleApproved>
+        <inTesting>no</inTesting>
+        <gameplayVideo>yes</gameplayVideo>
+        <numberOfScreenshots>3</numberOfScreenshots>
+        <availableInAppBundle>yes</availableInAppBundle>
+        <bundleID>325</bundleID>
+        <editorsChoice>no</editorsChoice>
+        <featuredWeekly>no</featuredWeekly>
+    </application>
+    <application type="app" id="3721">
+        <title>Flying Drawn</title>
+        <developer>Abode Inc.</developer>
+        <genre>Art</genre>
+        <price>10.99</price>
+        <location>NL</location>
+        <discount unit="%">0</discount>
+        <numberOfDownloads>67800</numberOfDownloads>
+        <numberOfViews>134678</numberOfViews>
+        <numberOfReviews>93</numberOfReviews>
+        <rating unit="star">5</rating>
+        <currentVersion>2.4</currentVersion>
+        <technicalSupport>support@abode.com</technicalSupport>
+        <supportediOS>
+            <iOS9.X>yes</iOS9.X>
+            <iOS8.X>yes</iOS8.X>
+            <iOS10.X>yes</iOS10.X>
+        </supportediOS>
+        <tvOS>no</tvOS>
+        <macOS>no</macOS>
+        <supportedDevices>
+            <iPhone type="oldest">5</iPhone>
+            <iPhone type="newest">7</iPhone>
+            <iPodTouch type="oldest">5</iPodTouch>
+            <iPodTouch type="newest">6</iPodTouch>
+            <iPadMini type="oldest">1</iPadMini>
+            <iPadMini type="newest">2</iPadMini>
+            <iPad type="oldest">4</iPad>
+            <iPad type="newest">Air 2</iPad>
+        </supportedDevices>
+        <applePencilSupport>yes</applePencilSupport>
+        <internetRequired>yes</internetRequired>
+        <minimumConnection unit="Mbs">1</minimumConnection>
+        <in-appPurchases>no</in-appPurchases>
+        <in-appAds>no</in-appAds>
+        <notifications>
+            <sounds status="default">yes</sounds>
+            <notificationCenter status="default">yes</notificationCenter>
+            <badgeAppIcon status="default">yes</badgeAppIcon>
+            <showOnLockScreen status="default">yes</showOnLockScreen>
+        </notifications>
+        <size unit="Mb">1253.1</size>
+        <appleApproved>yes</appleApproved>
+        <inTesting>no</inTesting>
+        <gameplayVideo>no</gameplayVideo>
+        <numberOfScreenshots>4</numberOfScreenshots>
+        <availableInAppBundle>no</availableInAppBundle>
+        <bundleID>N/A</bundleID>
+        <editorsChoice>yes</editorsChoice>
+        <featuredWeekly>yes</featuredWeekly>
+    </application>
+    <application type="game" id="0909">
+        <title>Eating 'em buns</title>
+        <developer>BTC HAVI</developer>
+        <genre>Simulator</genre>
+        <price>2.99</price>
+        <location>RU</location>
+        <discount unit="%">0</discount>
+        <numberOfDownloads>130</numberOfDownloads>
+        <numberOfViews>1583</numberOfViews>
+        <numberOfReviews>1</numberOfReviews>
+        <rating unit="star">3</rating>
+        <currentVersion>1.0</currentVersion>
+        <technicalSupport>support@btc.com</technicalSupport>
+        <supportediOS>
+            <iOS9.X>yes</iOS9.X>
+            <iOS8.X>yes</iOS8.X>
+            <iOS10.X>yes</iOS10.X>
+        </supportediOS>
+        <tvOS>yes</tvOS>
+        <macOS>no</macOS>
+        <supportedDevices>
+            <iPhone type="oldest">5</iPhone>
+            <iPhone type="newest">7</iPhone>
+            <iPodTouch type="oldest">5</iPodTouch>
+            <iPodTouch type="newest">6</iPodTouch>
+            <iPadMini type="oldest">1</iPadMini>
+            <iPadMini type="newest">2</iPadMini>
+            <iPad type="oldest">4</iPad>
+            <iPad type="newest">Air 2</iPad>
+        </supportedDevices>
+        <applePencilSupport>no</applePencilSupport>
+        <internetRequired>yes</internetRequired>
+        <minimumConnection unit="Mbs">1</minimumConnection>
+        <in-appPurchases>no</in-appPurchases>
+        <in-appAds>yes</in-appAds>
+        <notifications>
+            <sounds status="default">yes</sounds>
+            <notificationCenter status="default">yes</notificationCenter>
+            <badgeAppIcon status="default">yes</badgeAppIcon>
+            <showOnLockScreen status="default">yes</showOnLockScreen>
+        </notifications>
+        <size unit="Mb">21.1</size>
+        <appleApproved>yes</appleApproved>
+        <inTesting>no</inTesting>
+        <gameplayVideo>no</gameplayVideo>
+        <numberOfScreenshots>3</numberOfScreenshots>
+        <availableInAppBundle>yes</availableInAppBundle>
+        <bundleID>11</bundleID>
+        <editorsChoice>no</editorsChoice>
+        <featuredWeekly>no</featuredWeekly>
+    </application>
+</appStore>

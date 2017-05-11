@@ -1,0 +1,169 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="appStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="application" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="developer"/>
+              <xs:element type="xs:string" name="genre"/>
+              <xs:element type="xs:float" name="price"/>
+              <xs:element type="xs:string" name="location"/>
+              <xs:element name="discount">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:byte">
+                      <xs:attribute type="xs:string" name="unit" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:int" name="numberOfDownloads"/>
+              <xs:element type="xs:int" name="numberOfViews"/>
+              <xs:element type="xs:byte" name="numberOfReviews"/>
+              <xs:element name="rating">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:byte">
+                      <xs:attribute type="xs:string" name="unit" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:float" name="currentVersion"/>
+              <xs:element type="xs:string" name="technicalSupport"/>
+              <xs:element name="supportediOS">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="iOS9.X"/>
+                    <xs:element type="xs:string" name="iOS8.X"/>
+                    <xs:element type="xs:string" name="iOS10.X"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="tvOS"/>
+              <xs:element type="xs:string" name="macOS"/>
+              <xs:element name="supportedDevices">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="iPhone" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:byte">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="iPodTouch" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:byte">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="iPadMini" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:byte">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="iPad" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="applePencilSupport"/>
+              <xs:element type="xs:string" name="internetRequired"/>
+              <xs:element name="minimumConnection">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:float">
+                      <xs:attribute type="xs:string" name="unit" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="in-appPurchases"/>
+              <xs:element type="xs:string" name="in-appAds"/>
+              <xs:element name="notifications">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="sounds">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="status" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="notificationCenter">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="status" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="badgeAppIcon">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="status" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="showOnLockScreen">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="status" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="size">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:float">
+                      <xs:attribute type="xs:string" name="unit" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="appleApproved"/>
+              <xs:element type="xs:string" name="inTesting"/>
+              <xs:element type="xs:string" name="gameplayVideo"/>
+              <xs:element type="xs:byte" name="numberOfScreenshots"/>
+              <xs:element type="xs:string" name="availableInAppBundle"/>
+              <xs:element type="xs:string" name="bundleID"/>
+              <xs:element type="xs:string" name="editorsChoice"/>
+              <xs:element type="xs:string" name="featuredWeekly"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="type" use="optional"/>
+            <xs:attribute type="xs:short" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
